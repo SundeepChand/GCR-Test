@@ -19,5 +19,4 @@ jobs:
       - name: Build the image
         run: |
           docker build -t ghcr.io/sundeepchand/hello-node:latest .
-          docker run ghcr.io/sundeepchand/hello-node:latest
           docker push ghcr.io/sundeepchand/hello-node:latest
